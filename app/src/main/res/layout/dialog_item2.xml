@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <ImageView
+        android:id="@+id/Apptizer_photo2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription=""
+        android:src="@drawable/fattoush" />
+
+    <TextView
+        android:id="@+id/Apptizer_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:text="Fattoush : Bland sallad, friterad bröd, ost"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/kebabsallad_photo2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription=""
+        android:src="@drawable/kebabsallad" />
+
+    <TextView
+        android:id="@+id/kebabsallad_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:text="Kebab Sallad : Isbergs sallad, gurka, tomat, fefferone, kebab "
+        android:textSize="18dp" />
+
+
+    <ImageView
+        android:id="@+id/kyclingsallad_photo2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription=""
+        android:src="@drawable/kycklingsallad" />
+
+    <TextView
+        android:id="@+id/kyclingsallad_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:text="Kyckling Sallad : Isbergs sallad, gurka, tomat, fefferone, kycling"
+        android:textSize="18dp" />
+
+</LinearLayout>

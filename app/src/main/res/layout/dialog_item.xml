@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <ImageView
+        android:id="@+id/kebabtallrik_photo1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription=""
+        android:src="@drawable/kabab" />
+
+    <TextView
+        android:id="@+id/kebabtallrik_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:text="KebabTallrik : Välj mellan : pommes frites, ris eller bulgur"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/lammspett_photo1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription=""
+        android:src="@drawable/lammspett" />
+
+    <TextView
+        android:id="@+id/lammspett_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:text="Lamm Spett : 2st lamm spett"
+        android:textSize="18dp" />
+
+
+    <ImageView
+        android:id="@+id/shishkebab_photo1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:contentDescription=""
+        android:src="@drawable/shishkebab" />
+
+    <TextView
+        android:id="@+id/shishkebab_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:text="Shish Kebab Spett : 3st shish kebabspett"
+        android:textSize="18dp" />
+
+</LinearLayout>
